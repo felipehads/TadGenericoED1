@@ -1,5 +1,5 @@
 #ifndef __COLECAO_H
-#define __COLECAO_C_
+#define __COLECAO_C
 
 typedef struct _colecao_ Colecao;
 
@@ -9,7 +9,7 @@ int colInserir( Colecao *c, void* item );
 
 void* colRetirar( Colecao *c, void *chave, int (*compar)(void *,void *));
 
-void *colBuscar( Colecao *c, void *chave, int (*compar)(void *, void *) ); 
+void *colBuscar( Colecao *c, void *chave, int (*compar)(void *, void *) );
 
 int colDestruir( Colecao *c );
 
